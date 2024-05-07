@@ -1,0 +1,56 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+.input-form{
+    margin-top: 20px;
+}
+
+.input-form{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.input-form button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-form button:hover{
+background-color: #45a049;
+}
+
+#task-list{
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.task-item span{
+    margin-right: 10px;
+}
+
+.task-item button{
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.task-item button:hover{
+    background-color: #cc0000;
+}
